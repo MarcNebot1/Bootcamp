@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <style>
+        input:in-range{
+            border: 3px solid green;
+        }
+        input:out-of-range{
+            border: 3px solid red;
+        }
+    </style>
+<body>
+    <h1>Display a Number Field</h1>
+    <form action="">
+        <label for="quantity"> Quantity (between 0 and 120):</label> <!--definimos el texto-->
+        <input type="number" id="quantity" name="quantity" min="0" max="120"><!--definimos el input que se puede poner-->
+        <input type="submit"><!--casilla donde poner el dato-->
+    </form>
+</body>
+
+</html>
