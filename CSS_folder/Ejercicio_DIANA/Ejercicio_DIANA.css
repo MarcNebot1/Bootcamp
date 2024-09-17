@@ -1,0 +1,69 @@
+
+
+div {
+    border-radius: 50%; 
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+}
+
+.circle1 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(158, 158, 158);
+}
+
+.circle2 {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+}
+.circle3 {
+    width: 240px;
+    height: 240px;
+    background-color: white;
+}
+.circle4 {
+    width: 210px;
+    height: 210px;
+    background-color: red;
+}
+.circle5 {
+        width: 180px;
+        height: 180px;
+        background-color: white;
+}
+
+.circle6 {
+        width: 150px;
+        height: 150px;
+        background-color: red;
+}
+.circle7 {
+        width: 120px;
+        height: 120px;
+        background-color: white;
+}
+.circle8 {
+        width: 90px;
+        height: 90px;
+        background-color: red;
+}
+.circle9 {
+        width: 60px;
+        height: 60px;
+        background-color: white;
+}
+.circle10 {
+        width: 30px;
+        height: 30px;
+        background-color: red;
+}
+
+    

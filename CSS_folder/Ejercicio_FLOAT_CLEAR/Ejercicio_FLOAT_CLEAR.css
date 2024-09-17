@@ -1,0 +1,36 @@
+header{
+    width: 100px;
+    height: 100px;
+    inline-size: auto;
+    background-color: red;
+}
+
+nav{
+    width: 20px;
+    height: 20px;
+    inline-size: auto;
+    background-color: blue;
+    clear: both;
+}
+
+section{
+    width:  900px;
+    height: 500px;
+    float:left;
+    background-color: pink;
+}
+
+aside{
+    width: 500px;
+    height: 500px;
+    float: right;
+    background-color: rgb(236, 9, 175);
+}
+
+footer{
+    width: 20px;
+    height: 20px;
+    clear:both;
+    inline-size: auto;
+    background-color: green;
+}
