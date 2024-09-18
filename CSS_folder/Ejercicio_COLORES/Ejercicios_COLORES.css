@@ -1,0 +1,117 @@
+.text1 h1{
+    text-align: center;
+}
+.circle{
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    margin :7%;
+}
+.circle-1{
+
+    background-color:red;
+    float:left;
+}
+.circle-2{
+
+    background-color:green;
+    float:left;
+}
+.circle-3{
+
+    background-color:blue;
+    float:right;
+}
+.text2 h1{
+    text-align: center;
+}
+.circle-4{
+    
+    background-color:red;
+    float:left;
+}
+.circle-6{
+
+    background-color:purple;
+    float:left;
+}
+
+.circle-5{
+
+    background-color:blue;
+    float:left;
+}
+.text3{
+    font-size: 20pt;
+    position: relative;
+    float: left;
+    margin-top:12%;
+    margin-right:-10%;
+    
+    }
+
+.circle-7{
+
+    background-color:blue;
+    float:left;
+}
+.text4{
+    font-size: 20pt;
+    position: relative;
+    float: left;
+    margin-top: 12%;
+    margin-right: -5%;
+    }
+.circle-8{
+
+    background-color:green;
+    float:left;
+}
+.circle-9{
+    background-color:aqua ;
+    float:left;
+}
+.circle-10{
+
+    background-color:green;
+    float:left;
+}
+.circle-11{
+
+    background-color:red;
+    float:left;
+}
+.circle-12{
+    background-color:yellow ;
+    float:left;
+}
+.text5{
+font-size: 20pt;
+position: relative;
+float: left;
+margin-top: 12%;
+margin-right: -12%;
+}
+.text6{
+    font-size: 20pt;
+    position: relative;
+    float: left;
+    margin-top: 12%;
+    margin-right: -12%;
+}
+.text7{
+        font-size: 20pt;
+        position: relative;
+        float: left;
+        margin-top:12%;
+        margin-right:-10%;
+        
+}
+.text8{
+            font-size: 20pt;
+            position: relative;
+            float: left;
+            margin-top:12%;
+            margin-right:-12%;
+            
+}

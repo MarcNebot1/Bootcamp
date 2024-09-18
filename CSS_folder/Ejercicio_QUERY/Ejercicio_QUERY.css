@@ -1,0 +1,202 @@
+@media (min-width: 768px){
+.square1{
+    display: inline-block;
+    width: 48%;
+    height: 50px;
+    margin:1%;
+    background-color: orange;
+}
+.square2{
+    width: 48%;
+    height: 50px;
+    margin:1%;
+    background-color: orange;
+    float:right;
+}
+.square3{
+    width: 98%;
+    height: 300px;
+    margin-inline: 1%;
+    background-color: yellow;
+}
+.square4{
+    width:31%;
+    height:150px;
+    margin:1%;
+    background-color: blue;
+    float:left;
+}
+.square5{
+    width:31%;
+    height: 150px;
+    margin:1%;
+    background-color: blue;
+    float:left;
+}
+.square6{
+    width:31%;
+    height: 150px;
+    margin:1%;
+    background-color: blue;
+    float:right;
+}
+.square7{
+    width:23%;
+    height: 50px;
+    margin:1%;
+    background-color: grey;
+    float:left;
+}
+.square8{
+    width:23%;
+    height: 50px;
+    margin:1%;
+    background-color: grey;
+    float:left;
+}
+.square9{
+    width:23%;
+    height: 50px;
+    margin:1%;
+    background-color: grey;
+    float:right;
+}
+.square10{
+    width:23%;
+    height: 50px;
+    margin:1%;
+    background-color: grey;
+    float:right;
+}
+}
+@media (max-width: 768px){
+    .square1{   
+        width: 98%;
+        height: 30px;
+        margin:1%;
+        background-color: orange;
+    }
+    .square2{
+        width: 98%;
+        height: 30px;
+        margin:1%;
+        background-color: orange;
+    }
+    .square3{
+        width: 98%;
+        height: 200px;
+        margin-inline: 1%;
+        background-color: yellow;
+    }
+    .square4{
+        width:98%;
+        height:80px;
+        margin:1%;
+        background-color: blue;
+    }
+    .square5{
+        width: 98%;
+        height:80px;
+        margin:1%;
+        background-color: blue;
+
+    }
+    .square6{
+        width:98%;
+        height: 80px;
+        margin:1%;
+        background-color: blue;
+
+    }
+    .square7{
+        width:48%;
+        height: 50px;
+        margin:1%;
+        background-color: grey;
+        float:left;
+    }
+    .square8{
+        width:48%;
+        height: 50px;
+        margin:1%;
+        background-color: grey;
+        float:right;
+    }
+    .square9{
+        width:48%;
+        height: 50px;
+        margin:1%;
+        background-color: grey;
+        float:left;
+    }
+    .square10{
+        width:48%;
+        height: 50px;
+        margin:1%;
+        background-color: grey;
+        float:right;
+    }
+
+}
+@media (max-width: 320px){
+    .square1{   
+        width: 98%;
+        height: 30px;
+        margin:1%;
+        background-color: orange;
+    }
+    .square2{
+        width: 98%;
+        height: 30px;
+        margin:1%;
+        background-color: orange;
+    }
+    .square3{
+        width: 98%;
+        height: 100px;
+        margin-inline: 1%;
+        background-color: yellow;
+    }
+    .square4{
+        width:98%;
+        height:150px;
+        margin:1%;
+        background-color: blue;
+    }
+    .square5{
+        width: 98%;
+        height:150px;
+        margin:1%;
+        background-color: blue;
+
+    }
+    .square6{
+        width:98%;
+        height: 150px;
+        margin:1%;
+        background-color: blue;
+
+    }
+    .square7{
+        width:98%;
+        height: 100px;
+        margin:1%;
+        margin-bottom: 2%;
+        background-color: grey;
+    }
+    .square8{
+        width:0%;
+        height: 0px;
+        margin:0%;
+    }
+    .square9{
+        width:0%;
+        height: 0px;
+        margin:0%;
+    }
+    .square10{
+        width:0%;
+        height: 0px;
+        margin:0%;
+    }
+}
