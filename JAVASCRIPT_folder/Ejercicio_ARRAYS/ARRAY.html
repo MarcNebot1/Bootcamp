@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARRAYS</title>
+    <link rel="stylesheet" href="ARRAY.css">
+    
+</head>
+<body>
+<script src="ARRAY.js"></script>
+<div class="container"> 
+        <h4>Add Item</h4>
+        <div class="container1">
+		<button class="bttn" onclick="push('numeroInput')">push</button>
+        <button class="bttn1" onclick="unshift('numeroInput')">unshift</button>
+        <button class="bttn2" onclick="insertat('numeroInput')">insert at</button>
+            <div class="insert-container">
+            <input type="number" id="numeroInput" value="0" readonly>
+            <button class="bttn6" id="incrementar" onclick="sumar('numeroInput')">+</button>
+            <button class="bttn7" id="decrementar" onclick="restar('numeroInput')">-</button>
+            </div>
+    </div>
+        <h4>Remove Item</h4>
+        <div class="container2">
+        <button class="bttn3" onclick="pop('numeroInput1')">pop</button>
+        <button class="bttn4" onclick="shift('numeroInput1')">shift</button>
+        <button class="bttn5" onclick="removeat('numeroInput1')">remove at</button>
+            <div class="insert-container1">
+            <input type="number" id="numeroInput1" value="0" readonly>
+            <button class="bttn8" id="incrementar1" onclick="sumar('numeroInput1')">+</button>
+            <button class="bttn9" id="decrementar2" onclick="restar('numeroInput1')">-</button>
+            </div>
+        </div> 
+        <div class="lista-elementos" id="listaelementos">
+            <h4>Array:</h4>
+            <ul id="listaElementos"></ul>
+        </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,155 @@
+html, body {
+    height: 100%; 
+    margin: 0; 
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color:rgb(104, 241, 147); 
+}
+
+.container{
+    background-color:whitesmoke;
+    display:flex;
+    flex-direction: column; 
+    width: 400px;
+    height: 400px;
+    overflow-y: auto;          /* Permite el scroll vertical si el contenido excede la altura */
+}
+h4{
+    margin: 3%; /* Centrando el contenedor en la página */
+}
+ul{
+    margin:1%;
+}
+.container1{
+    border: 2px solid grey; 
+    border-radius: 5px; 
+    padding: 20px; 
+    background-color:rgb(176, 203, 184); 
+    margin:4%;
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height:auto;
+}
+.insert-container {
+    display: grid; 
+    width: 100px;
+    height: 28px;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 50% 50%;
+    border: 1px solid #ccc;
+    border-radius: 6px; 
+    margin:1%;
+}
+
+#numeroInput {
+    grid-row: span 2;
+    width: 70px;
+    text-align: center; 
+    font-size: 20px; 
+    border: none; 
+    outline: none; 
+}
+
+.bttn6{
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 10px; 
+    border: none; 
+    background-color: grey; 
+    color: white; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+.bttn7 { 
+    grid-column:2;
+    grid-row:2;
+    font-size: 10px; 
+    border: none; 
+    background-color: grey; 
+    color: white; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.bttn1, .bttn2, .bttn3, .bttn4, .bttn5, .bttn{
+    width: 80px;
+    font-weight: bold;
+    font-size: 10px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    cursor:pointer;
+    margin:1%;
+}
+.container2{
+    border: 2px solid grey; 
+    border-radius: 5px; 
+    padding: 20px; 
+    background-color: rgb(176, 203, 184); 
+    margin: 4%;
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height:auto;
+}
+.insert-container1 {
+    display: grid; 
+    width: 100px;
+    height: 28px;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 50% 50%;
+    border: 1px solid #ccc;
+    border-radius: 6px; 
+    margin:1%;
+}
+
+#numeroInput1 {
+    grid-row: span 2;
+    width: 70px;
+    text-align: center; 
+    font-size: 20px; 
+    border: none; 
+    outline: none; 
+}
+
+.bttn8{
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 10px; 
+    border: none; 
+    background-color: grey; 
+    color: white; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+.bttn9 { 
+    grid-column:2;
+    grid-row:2;
+    font-size: 10px; 
+    border: none; 
+    background-color: grey; 
+    color: white; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+.lista-elementos ul {
+    display: flex;            /* Habilita flexbox para los elementos de lista */
+    flex-wrap: wrap;         /* Permite que los elementos se envuelvan a la siguiente línea */
+    list-style-type: none;   /* Elimina los puntos de la lista */
+    padding: 0;              /* Elimina el padding */
+    margin: 0;               /* Elimina el margin */
+}
+
+.lista-elementos ul li {
+    margin-right: 10px;      /* espacio  */
+    font-size: 24px;         
+    flex: 0 1 auto;          /* Permite que los elementos crezcan y se reduzcan automáticamente */
+}
