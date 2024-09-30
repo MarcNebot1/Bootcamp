@@ -1,0 +1,23 @@
+html, body {
+    height: 100%; 
+    margin: 0; 
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color:rgb(221, 234, 225); 
+}
+
+.container{
+    background-color:whitesmoke;
+    display:flex;
+    flex-direction: column; 
+    width: 400px;
+    height: 500px;
+    text-align: center;
+}
+.rojo{ /*creamos el color rojo para el jquery*/
+color: red;
+}
