@@ -1,0 +1,85 @@
+html, body {
+    height: 100%; 
+    margin: 0; 
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-family: 'Scheherazade New', serif; /* Aplica la fuente a toda la página */
+    color: #f9fe00; /* Cambia esto al color que prefieras */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Agrega sombra al texto para mejor visibilidad */ 
+    letter-spacing: 2px;
+}
+
+.container{
+    background-color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.fondo{
+        width: 100%;
+        height: 100%;   
+}
+.titulo {
+    display:flex;
+    position: absolute; 
+    top:8px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Agrega sombra al texto para mejor visibilidad */ 
+    letter-spacing: 2px;
+}
+.container1{
+    display:flex;
+    position:absolute;
+    left:100px;
+    flex-direction: column;
+}
+.container1 img {
+    width: 150px;
+    height: 100px;
+    margin:5%;
+    border: 5px solid white; /* Borde blanco */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra */
+    box-sizing: border-box; /* Asegúrate de que el borde no afecte el tamaño de la imagen */
+}
+p1{
+    display:flex;
+    position:absolute;
+    left:60px;
+    font-size: 40px;
+}
+p2{
+    display:flex;
+    position:absolute;
+    left:70px;
+    top:110px;
+    font-size: 40px;
+}
+p3{
+    display:flex;
+    position:absolute;
+    left:70px;
+    top:230px;
+    font-size: 40px;
+}
+p4{
+    display:flex;
+    position:absolute;
+    top:340px;
+    left:70px;
+    font-size: 40px;
+}
+p5{
+    display:flex;
+    position:absolute;
+    top:455px;
+    left:70px;
+    font-size: 40px;
+}
+
+
