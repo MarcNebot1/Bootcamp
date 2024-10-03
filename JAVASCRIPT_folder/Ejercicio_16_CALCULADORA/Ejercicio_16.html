@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <link rel="stylesheet" href="Ejercicio_16.css">
+
+</head>
+<body>
+    <div class="container">
+        <p>calc</p>
+        <input class="casilla" type="text" id="numeroinput" value="0" readonly>
+        <div class="containerbotons">
+        <button class="b7" id="siete" onclick="numero(7)">7</button>
+        <button class="b8" id="ocho" onclick="numero(8)">8</button>
+        <button class="b9" id="nueve" onclick="numero(9)">9</button>
+        <button class="bdel" id="del" onclick="del()">DEL</button>
+        <button class="b4" id="cuatro" onclick="numero(4)">4</button>
+        <button class="b5" id="cinco" onclick="numero(5)">5</button>
+        <button class="b6" id="seis" onclick="numero(6)">6</button>
+        <button class="b+" id="sumar" onclick="signo('+')">+</button>
+        <button class="b1" id="uno" onclick="numero(1)">1</button>
+        <button class="b2" id="dos" onclick="numero(2)">2</button>
+        <button class="b3" id="tres" onclick="numero(3)">3</button>
+        <button class="b-" id="restar" onclick="signo('-')">-</button>
+        <button class="b." id="punto" onclick="signo('.')">.</button>
+        <button class="b0" id="zero" onclick="numero(0)">0</button>
+        <button class="b/" id="barralateral" onclick="signo('/')">/</button>
+        <button class="bx" id="multiplicar" onclick="signo('x')">x</button>
+        <button class="breset" id="reset" onclick="reset()">RESET</button>
+        <button class="bigual" id="igual" onclick="igual()">=</button>
+        </div>
+    </div>
+    <script src="Ejercicio_16.js"></script> 
+</body>
+</html>
