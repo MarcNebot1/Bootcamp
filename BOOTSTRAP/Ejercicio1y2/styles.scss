@@ -1,0 +1,23 @@
+
+//
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+
+@import "./node_modules/bootstrap/scss/bootstrap";
+//he ido al directorio y he utilizado este comando para crear los ficheros: npx sass styles.scss styles.css
+
+.bg-orange {
+    background-color: orange; /* Sets background color to orange */
+    height: 100vh; 
+}
+@include media-breakpoint-between(xs,md){
+    .container-fluid{
+        background-color: violet;
+    }
+}
+@include media-breakpoint-between(lg,xxl){
+    .container-fluid{
+        background-color: green;
+    }
+}
