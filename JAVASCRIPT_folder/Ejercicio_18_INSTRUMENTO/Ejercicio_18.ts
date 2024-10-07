@@ -9,7 +9,7 @@ sonido5 : new Audio('sonidos\Darbuka_66_76_SP.mp3')
 // Creamos un objeto sonidos que contiene todas las instancias de Audio. Esto nos permite gestionar todos los sonidos en un solo lugar.
 function reproducirSonido(event) {
     const sonidoId = event.target.getAttribute('data-sound'); // Obtener el id del sonido
-    if (sonidoId && sonidos[sonidoId]) {
+    if (sonidoId && sonidos[sonidoId]) { //si el sonido id es true y si esta la lista sonidos
         sonidos[sonidoId].currentTime = 0; // Reiniciar el sonido si ya se ha reproducido
         sonidos[sonidoId].play(); // Reproducir sonido
     }

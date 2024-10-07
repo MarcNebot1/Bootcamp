@@ -1,4 +1,4 @@
-// lo primero que he hecho es saber si puedo usar una imagen como una variable y luego ver la nomenclatura en typescript
+/*// lo primero que he hecho es saber si puedo usar una imagen como una variable y luego ver la nomenclatura en typescript
 //despues he querido obtener la imagen desde su ruta en vez de poniendola en html.
 let backImageSrc: string = "images/card-back.png"; // Parte trasera de la carta
 let frontImageSrc: string = "images/card-front.png"; // Parte frontal de la carta
@@ -21,4 +21,4 @@ if (carta2) {
 // Función para cambiar la imagen cuando se pasa el cursor
 function girarCarta(carta: HTMLImageElement, imagenSrc: string): void {
     carta.src = imagenSrc;
-}
+}*/
