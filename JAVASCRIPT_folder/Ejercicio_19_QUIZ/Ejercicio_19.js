@@ -60,6 +60,13 @@ var Cuestionario = /** @class */ (function () {
     Cuestionario.prototype.agregarPregunta = function (pregunta) {
         this.preguntas.push(pregunta);
     };
+    Cuestionario.prototype.mostrarinicio = function () {
+        var _this = this;
+        var botonSiguiente = document.getElementById('siguiente-btn');
+        botonSiguiente.onclick = function () {
+            _this.iniciar();
+        };
+    };
     Cuestionario.prototype.iniciar = function () {
         this.preguntaActual = 0;
         this.mostrarPregunta(); // Muestra la primera pregunta
@@ -83,7 +90,7 @@ var Cuestionario = /** @class */ (function () {
     };
     Cuestionario.prototype.mostrarResultado = function () {
         var resultadoContainer = document.getElementById('resultado-container');
-        resultadoContainer.innerHTML = "El resultado final es: ".concat(this.puntuaje, " de ").concat(this.preguntas.length);
+        resultadoContainer.innerHTML = "Tu puntaje final es: ".concat(this.puntuaje, " de ").concat(this.preguntas.length);
         document.getElementById('pregunta-container').style.display = 'none'; // Oculta la pregunta
         document.getElementById('opciones-container').style.display = 'none'; // Oculta las opciones
         document.getElementById('siguiente-btn').style.display = 'none'; // Oculta el botón
@@ -185,4 +192,4 @@ cuestionario.agregarPregunta(new Pregunta("¿Cuál es la diferencia entre margin
     "margin se aplica a elementos de bloque, y padding solo a elementos en línea."
 ], 1));
 // Iniciar el cuestionario
-cuestionario.iniciar();
+cuestionario.mostrarinicio();

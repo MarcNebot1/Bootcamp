@@ -1,4 +1,4 @@
-class Pregunta {
+/*class Pregunta {
     pregunta: string;
     opciones: string[];
     respuestacorrecta: number;
@@ -75,10 +75,18 @@ class Cuestionario {
         this.preguntas.push(pregunta);
     }
 
+    mostrarinicio(): void{
+        const botonSiguiente = document.getElementById('siguiente-btn') as HTMLButtonElement;
+        botonSiguiente.onclick = () => { // Avanzar a la siguiente pregunta cuando se presiona "Siguiente"
+        this.iniciar();
+        }; 
+    }
     iniciar(): void {
+
         this.preguntaActual = 0;
         this.mostrarPregunta(); // Muestra la primera pregunta
     }
+    
 
     mostrarPregunta(): void {
         const pregunta = this.preguntas[this.preguntaActual];
@@ -268,5 +276,6 @@ cuestionario.agregarPregunta(new Pregunta(
     1
 ));
 // Iniciar el cuestionario
-    cuestionario.iniciar();
+    cuestionario.mostrarinicio();
 
+*/
