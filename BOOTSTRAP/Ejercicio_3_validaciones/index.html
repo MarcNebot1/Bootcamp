@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con Validación</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Formulario de Validación</h2>
+        <form id="miFormulario" novalidate>
+            <div class="boton3">
+            <!--Abre un formulario (<form>) con el ID miFormulario.
+            El atributo novalidate indica que no se debe utilizar la validación HTML5 predeterminada,
+            ya que usaremos la validación personalizada con Bootstrap.-->
+
+            <label for="nombre" class="etiqueta-form1">Nombre</label>
+            <!--Crea una etiqueta (<label>) para el campo de nombre. El atributo for="nombre" 
+            conecta la etiqueta con el campo de entrada correspondiente, lo que mejora la accesibilidad.-->
+
+            <input type="text" class="control-form1" id="nombre" required>
+            <!-- Crea un campo de entrada de texto (<input>). La clase form-control
+            aplica los estilos de Bootstrap al campo,
+            y required indica que este campo debe completarse antes de enviar el formulario.-->
+
+            <div class="invalid-feedback">Por favor, ingresa tu nombre.</div>
+            </div>
+            <!--Crea un <div> que muestra un mensaje de error si el campo no se completa. 
+            Este mensaje se mostrará solo si el usuario intenta enviar el formulario sin completar el campo.-->
+            <div class="boton3">
+            <label for="email" class="etiqueta-form2">Email</label>
+            <input type="email" class="control-form2" id="email" required>
+            <div class="invalid-feedback">Por favor, ingresa un email válido.</div>
+            </div>
+            <button type="submit" class="boton primario">Enviar</button>
+        </form>
+                <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
+    
+    <!-- Bootstrap Bundle with Popper.js -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

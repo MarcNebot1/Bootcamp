@@ -1,0 +1,28 @@
+@import "./node_modules/bootstrap/scss/bootstrap";
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+@import "./node_modules/bootstrap/scss/grid"; // For grid system
+@import "./node_modules/bootstrap/scss/utilities"; // For utility classes
+
+.bg-custom-green {
+    background-color: #40e466; /* Verde personalizado */
+}
+.bg-custom-blue {
+    background-color: #40bbe4; /* Verde personalizado */
+}
+.bg-custom-red {
+    background-color: #e44079; /* Verde personalizado */
+}
+.bg-custom-yellow {
+    background-color: #e4dc40; /* Verde personalizado */
+}
+.bg-custom-orange {
+    background-color: #e4a240; /* Verde personalizado */
+}
+.bg-custom-purple {
+    background-color: #ad40e4; /* Verde personalizado */
+}
+.bg-custom-grey {
+    background-color: #9da49f; /* Verde personalizado */
+}

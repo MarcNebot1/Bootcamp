@@ -1,0 +1,16 @@
+
+@import "./node_modules/bootstrap/scss/bootstrap";
+//C:\Users\newga\Desktop\Bootcamp\BOOTSTRAP\node_modules\bootstrap\scss\bootstrap.scss
+//he ido al directorio y he utilizado este comando para crear los ficheros: npx sass styles.scss styles.css
+
+body {
+    background-color: #f8f9fa; 
+}
+
+h1 {
+    color: #343a40; 
+}
+
+.invalid-feedback {
+    display: none; 
+}
