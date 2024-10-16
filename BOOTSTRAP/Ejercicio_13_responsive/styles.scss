@@ -1,0 +1,14 @@
+@import "./node_modules/bootstrap/scss/bootstrap";
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+@import "./node_modules/bootstrap/scss/grid"; // For grid system
+@import "./node_modules/bootstrap/scss/utilities"; // For utility classes
+
+.text-gris {
+    color: #6c757d;
+    font-size: 1.2rem; 
+    font-weight: 500; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+    margin-top: 10px; 
+    }
