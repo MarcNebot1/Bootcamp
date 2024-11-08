@@ -1,0 +1,7 @@
+package packageclass;
+
+public class tarjetacredito {
+
+ String numerotarjeta;
+ String nombre;
+}

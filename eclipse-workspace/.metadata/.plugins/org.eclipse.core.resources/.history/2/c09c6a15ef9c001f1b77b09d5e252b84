@@ -1,0 +1,12 @@
+package packagesecundario;
+
+public class HastaNunqui {
+
+	
+	public static String patada() {
+		String mensaje = "¡Hasta nunqui!";
+		System.out.println(mensaje);
+		return(mensaje);
+		
+	}
+}

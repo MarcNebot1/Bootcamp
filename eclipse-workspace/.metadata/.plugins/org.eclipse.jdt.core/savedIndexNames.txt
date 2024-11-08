@@ -1,0 +1,7 @@
+INDEX VERSION 1.134+C:\Users\newga\Desktop\Bootcamp\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core
+348111208.index
+2723764810.index
+1793812993.index
+2565356412.index
+102625795.index
+917837243.index

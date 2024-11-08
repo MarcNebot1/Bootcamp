@@ -1,0 +1,12 @@
+package packagesecundario;
+
+public class HastaNunqui {
+
+	
+	public String saludar() {
+		String mensaje = "¡Hasta nunqui!";
+		System.out.println(mensaje);
+		return(mensaje);
+		
+	}
+}

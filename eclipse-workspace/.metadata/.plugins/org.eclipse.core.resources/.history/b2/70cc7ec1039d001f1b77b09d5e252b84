@@ -1,0 +1,20 @@
+package packageclass;
+
+public class car {
+	
+	String name;
+	String color;
+	String matricula;
+	String combustible;
+	String tipodecoche;
+
+	public car(String name, String color, String matricula, String combustible, String tipodecoche) {
+		super();
+		this.name = name;
+		this.color = color;
+		this.matricula = matricula;
+		this.combustible = combustible;
+		this.tipodecoche = tipodecoche;
+	}
+	
+}

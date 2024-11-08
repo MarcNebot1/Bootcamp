@@ -1,0 +1,11 @@
+package packagesecundario;
+
+public class HolaMundo {
+
+	
+	public static String saludar() {
+		String mensaje = "¡Hola mundo!";
+		System.out.println(mensaje);
+		return(mensaje);
+	}	
+}

@@ -1,0 +1,16 @@
+package packagemain;
+
+import packageclass.tarjetacredito;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     tarjetacredito t= new tarjetacredito("123456796969", "marc", "1/11/2024", "santander", "123", false);
+     t.gastar(12);// gastamos haciendo una compra de 12 euros por ejemplo
+     System.out.println(t.isActivada()); // miramos si la tarjeta esta activada
+     System.out.println(t.setActivada(true)); //activamos la tarjeta
+     System.out.println(t.saldoactual());//miramos el salldo acutal despues de haber gastado
+	}
+
+}

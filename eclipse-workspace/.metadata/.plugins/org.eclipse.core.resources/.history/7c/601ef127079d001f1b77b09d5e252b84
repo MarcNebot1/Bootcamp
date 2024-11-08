@@ -1,0 +1,20 @@
+package packageclass;
+
+public class tarjetacredito {
+	String numerotarjeta;
+	 String nombre;
+	 String fechadecaducidad;
+	 String entidademisora;
+	 String numerode3cifras;
+	 
+ public tarjetacredito(String numerotarjeta, String nombre, String fechadecaducidad, String entidademisora,
+			String numerode3cifras) {
+		super();
+		this.numerotarjeta = numerotarjeta;
+		this.nombre = nombre;
+		this.fechadecaducidad = fechadecaducidad;
+		this.entidademisora = entidademisora;
+		this.numerode3cifras = numerode3cifras;
+	}
+
+}

@@ -1,0 +1,8 @@
+package packageclass;
+
+public class tarjetacredito {
+
+ String numerotarjeta;
+ String nombre;
+ String fechadecaducidad;
+}
